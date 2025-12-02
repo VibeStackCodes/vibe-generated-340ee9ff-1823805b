@@ -1,0 +1,13 @@
+{
+  "projectId": "340ee9ff-115d-4eed-8ab5-59fbb14a95be",
+  "webhookUrl": "https://lemon-tigers-draw.loca.lt/api/claude-code/progress",
+  "hooks": {
+    "enabled": true,
+    "events": [
+      "SessionStart",
+      "SessionEnd",
+      "PreToolUse",
+      "PostToolUse"
+    ]
+  }
+}
